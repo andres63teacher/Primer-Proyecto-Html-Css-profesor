@@ -3,6 +3,14 @@
       * {margin: 0;
          padding: 0;}
       
+      ul {list-style: none;
+          margin-left: 0;}
+
+      a {text-decoration: none;
+         color: #210303;}
+
+
+
      /*   Codigo de la Pagina*/
 
     header, nav, main,footer  {width: 80%;
