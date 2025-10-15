@@ -13,7 +13,18 @@
            left: 10%;}
       header  {margin-top: 6rem ;}
 
+      section {display: flex;
+            flex-direction: row;
+          min-height: 20rem;
+        width: 80%;
+        margin: 0 auto;}
+       .content {width: 60%;
+                 min-height: 20rem;
+                background-color: burlywood;}
 
+        aside {width: 40%;
+               min-height: 20rem;
+               background-color: rgb(136, 136, 163);}
     </style>
 </head>
 <body>
@@ -34,43 +45,29 @@
     <h1>Pagina de Contacto del Sitio Web</h1>
     </header>
 
-    <main>
+    <section>  
+      <div class="content">
+           <form action="recogida_datos.php" method="get">
+            <p>Nombre *</p>
+             <input id="inpt1" type="text" name="nombre" placeholder="Pon tu nombre..." required>
+             <p>Desplazamiento</p>
+             <input type="text" name="Desplazamiento" value="Metro">
+             <p>Password</p>
+             <input type="password">
+             <br>
+             <button type="submit">ENVIAR</button>
 
-        <img src="img/bizkaia_1.jpg" alt="Foto de Bizkaia"  title="Imagen de Bizkaia">
-        <img src="img/bizkaia_2.jpg" alt="Foto de Bizkaia"  title="Imagen de Bizkaia">
-        <img src="img/bizkaia_3.jpg" alt="Foto de Bizkaia"  title="Imagen de Bizkaia">
-        <img src="img/bizkaia_4.jpg" alt="Foto de Bizkaia"  title="Imagen de Bizkaia">
-        <img src="img/bizkaia_5.jpg" alt="Foto de Bizkaia"  title="Imagen de Bizkaia">
-        <img src="img/bizkaia_6.jpeg" alt="Foto de Bizkaia"  title="Imagen de Bizkaia">
-        <img src="img/bizkaia_7.jpg" alt="Foto de Bizkaia"  title="Imagen de Bizkaia">
-        <!--  
-         <div class="izda"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-         Accusamus architecto debitis dolore nihil aspernatur 
-         doloremque ea maiores excepturi nostrum autem reprehenderit, 
-         magni explicabo magnam? Libero!
-        </div>
-         <div> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-         Accusamus architecto debitis dolore nihil aspernatur 
-         doloremque ea maiores excepturi nostrum autem reprehenderit, 
-         magni explicabo magnam? Libero!
-        </div>
-         <div class="dcha"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-         Accusamus architecto debitis dolore nihil aspernatur 
-         doloremque ea maiores excepturi nostrum autem reprehenderit, 
-         magni explicabo magnam? Libero!
-        </div>
-         <div> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-         Accusamus architecto debitis dolore nihil aspernatur 
-         doloremque ea maiores excepturi nostrum autem reprehenderit, 
-         magni explicabo magnam? Libero!
-        </div>
-        <div> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-         Accusamus architecto debitis dolore nihil aspernatur 
-         doloremque ea maiores excepturi nostrum autem reprehenderit, 
-         magni explicabo magnam? Libero!
-        </div>
-        -->
-    </main>
+           </form> 
+
+
+
+      </div>
+
+       <aside>
+
+       </aside>
+    </section>
+   
     <footer>
 rem
     </footer>
